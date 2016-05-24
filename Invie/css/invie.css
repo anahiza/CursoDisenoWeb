@@ -2,6 +2,29 @@
 	margin: 0;
 	padding: 0;
 }
-header{
-	background-color: blue;
+.titulo{
+	font-size: 70px;
+}
+
+.title-a{
+	font-size: 24px;
+}
+.guitarra{
+	color:#1F313C;
+}
+.guitarra h2{
+	font-size: 35px;
+}
+
+.title-b{
+	font-size: 50px;
+}
+
+.portada{
+	background-image: url("../images/background.png");
+	color:white;
+}
+
+.menu{
+	font-size: 24px;
 }
