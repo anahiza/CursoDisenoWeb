@@ -1,18 +1,29 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Allerta', sans-serif;
+
+*/
+body{
+	font-family: 'Allerta', sans-serif;	
+}
+
 *{
 	margin: 0;
 	padding: 0;
 }
 .titulo{
+	font-family: 'Montserrat', sans-serif;
 	font-size: 70px;
 }
 
 .title-a{
+	
 	font-size: 24px;
 }
 .guitarra{
 	color:#1F313C;
 }
 .guitarra h2{
+	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
 }
 
