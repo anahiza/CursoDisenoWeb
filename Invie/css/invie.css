@@ -99,7 +99,7 @@ body{
 	position: relative;
 }
 
-button{
+.button{
 	border-radius: 5px;
 	background-color: #fd324e;
 	color:white;
@@ -111,8 +111,16 @@ button{
 	background: #273b47;
 }
 
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+}
 .contacto img{
 	display: block;
+	margin: 10px;
+
 }
 
 .contacto strong{
@@ -122,4 +130,42 @@ button{
 .contacto a{
 	color: white;
 	text-decoration: none;
+	margin:10px 10px 10 px 0;
+}
+
+footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario{
+	display: flex;
+	width: 400px;
+	color: white;
+	margin:  50px 10px;
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.col1{
+	margin-right: 15px;
+}
+.col2{
+	align-items: flex-start;
+}
+
+.intereses label{
+	font-size: 13px;
+}
+
+.formulario label , .sexo, .intereses{
+	margin-bottom: 10px;
+}
+
+.sexo {
+	margin-top: 10px;
 }
