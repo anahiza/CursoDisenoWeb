@@ -14,20 +14,26 @@ header{
 
 nav{
 	font-weight: 400;
+	height: inherit;
+	
 }
 nav ul{
 	display: flex;
+	height: inherit;
+	margin: 0;
 }
 
 nav li{
 	list-style: none;
-	text-decoration: none;
 	color: white;
+	height: inherit;
+	display: flex;
+	align-items: center;
 }
 nav li:after{
 	content: "|";
 	display: inline-block;
-	margin: 0 10px;
+	margin: 0 ;
 }
 
 nav li:last-child:after{
@@ -36,13 +42,37 @@ nav li:last-child:after{
 
 nav a{
 	color:white;
+	display: flex;
+	text-decoration: none;
+	height: inherit;
+	align-items: center;
+	padding: 0 10px;
 }
+
+
+nav a.is-active{
+	box-shadow: inset 0px 5px 0 green;
+}
+nav a:hover{
+		box-shadow: inset 0px 5px 0 red;
+	/*border-top:5px solid red;*/
+}
+
 h1{
 	margin:0;
 	font-weight: 600;
 }
 .portada{
 	position: relative;
+}
+.header-right{
+	height: inherit;
+	display: flex;
+	align-items: center;
+}
+
+.header-right .button{
+	margin-left: 10px;
 }
 
 .portada .description{
@@ -53,6 +83,24 @@ h1{
 	padding: 20px;
 }
 
+.button{
+	background: grey;
+	box-shadow: inset 0 -5px 0 rgba(0,0,0,0.3);
+	font-size: 14px;
+	padding: 5px 10px 10px;
+	text-decoration: none;
+	color: white;
+	transition: 0.2s;
+	border-radius: 5px;
+}
+.button:focus{
+	transform: scale(0.9);
+
+}
+
+.button.red{
+	background: #ff4875;
+}
 .blog{
 	width: 800px;
 	margin: 0 auto;
