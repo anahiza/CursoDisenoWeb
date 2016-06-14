@@ -1,7 +1,11 @@
 body{
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
+	color: #515151;
 
+}
+a{
+	color: #515151;
 }
 header{
 	background:  #273b47;
@@ -61,6 +65,7 @@ nav a:hover{
 h1{
 	margin:0;
 	font-weight: 600;
+	margin-bottom: 15px;
 }
 .portada{
 	position: relative;
@@ -76,7 +81,7 @@ h1{
 }
 
 .portada .description{
-	background: rgba(255,255,255,0.8);
+	background: rgba(255,255,255,0.7);
 	position: absolute;
 	bottom: 30px;
 	left: 20px;
@@ -115,6 +120,7 @@ h1{
 .blog-item h3{
 	font-weight: 700;
 	margin: 0, 10px;
+	margin-bottom: 10px;
 }
 .item-blog{
 	width: 250px;
@@ -123,6 +129,61 @@ h1{
 .blog-items .description{
 	padding: 10px 0;
 	text-align: left;
-	border-bottom: 1px solid #eee;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
+
+.paginador{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+
+}
+
+.paginador ul{
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0
+	margin-left:10px;
+}
+
+.paginador li{
+	background: #eaeaea;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 10px;
+	margin: 0 10px;
+	border: 1px solid gray;
+}
+
+.paginador a{
+	text-decoration: none;
+}
+
+.paginador .selected{
+	border-color: transparent;
+	background: white;
+}
+
+.autor{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px solid lightgrey;
+	padding-top: 10px;
+	font-size: 13px;
+
+}
+
+.autor img{
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+.autor p{
+	margin:; 0;
+
+}
+
