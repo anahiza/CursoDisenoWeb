@@ -1,0 +1,14 @@
+.caja{
+	transition: 1s;
+	overflow: hidden;
+}
+
+img {
+	width: 50px;
+	transition: 0.5s;
+	transform: translateY(100);
+}
+
+div:hover{
+	transform: translateY(-100);
+}
