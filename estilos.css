@@ -14,7 +14,6 @@ html {
   background-size: cover;
 
 }
-
 	article{
 		width: 50%;
 		vertical-align: 0;
@@ -26,9 +25,7 @@ html {
 		color: white;
 	}
 
-html{
-	background-color:  	#ffeead;
-}
+
 header{
 	background-color: #96ceb4;
 	padding: 1em;
@@ -43,7 +40,7 @@ footer{
 	position: absolute;
 	background-color: #ff6f69;
 	color:white;
-	height: 2em;
+	height: 30px;
 	width: 100%;
 	left: 0;
 	bottom:0;
@@ -66,3 +63,4 @@ box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.6);
     -webkit-animation-timing-function: ease-in-out;
     visibility: visible !important;
 }
+
